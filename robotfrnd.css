@@ -1,0 +1,91 @@
+h1{
+	text-align: center;
+}
+.head,
+.left_arm,
+.torso,
+.right_arm,
+.left_leg,
+.right_leg{
+	background: #5f93e8;
+}
+.head{
+	width: 200px;
+	height: 150px;
+	margin: 0 auto;
+	border-radius: 200px 200px 0px 0px;
+	margin-bottom: 10px;
+}
+.head:hover{
+	width: 300px;
+	transition: 1s ease-in-out;
+}
+.eyes{
+	display: flex;
+}
+.upper_body{
+	width: 300px;
+	height: 150px;
+	display: flex;
+	margin: 0 auto;
+	}
+	.left_arm{
+		width: 40px;
+		height: 125px;
+		border-radius: 100px;
+		margin-right:10px;
+
+	}
+	.right_arm{
+		width: 40px;
+		height: 125px;
+		border-radius: 100px;
+		margin-left:10px;
+
+	}
+	
+	.torso{
+		width: 200px;
+		height: 200px;
+		border-radius: 0px 0px 50px 50px;
+	}
+	.lower_body{
+		width: 200px;
+		height: 200px;
+		margin: 0 auto;
+		display: flex;
+	}
+	.left_leg{
+		width: 40px;
+		height: 120px;
+		border-radius: 100px;
+		margin-left: 45px;
+	}
+	.left_leg:hover{
+		transform: rotate(20deg);
+	}
+	.right_leg{
+		width: 40px;
+		height: 120px;
+		border-radius: 100px;
+		margin-left: 30px;
+	}
+	.left_eye,.right_eye{
+		width: 20px;
+		height: 20px;
+		border-radius: 15px;
+		background-color: white;
+	}
+	.left_eye { 
+	/* These properties are new and you haven't encountered
+	in this course. Check out CSS Tricks to see what it does! */
+	position: relative; 
+	top: 100px; 
+	left: 40px; 
+} 
+
+.right_eye { 
+	position: relative; 
+	top: 100px; 
+	left: 120px; 
+}
